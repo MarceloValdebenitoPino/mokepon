@@ -27,7 +27,7 @@ body {font-family: 'Bebas Neue', sans-serif;
 
 }
 
-.tarjetas {
+.tarjetas, .tarjetas-ataques {
     display: flex;
     gap: 10px;
     
@@ -64,6 +64,10 @@ width: 150px;
 
 input {
     display: none;
+}
+
+input:checked + label {
+    background: #64CCC5;
 }
 
 #seleccionar-ataque {
@@ -114,8 +118,15 @@ input {
     margin-bottom: 0;
 }
 
+.ataques-jugador, .ataques-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 @media (max-width:360px) {
-   .tarjetas {
+   .tarjetas, .tarjetas-ataques {
     flex-direction: column;
    } 
 }
