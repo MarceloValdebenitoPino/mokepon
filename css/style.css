@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {font-family: 'Bebas Neue', sans-serif;
+    background-color: #DAFFFB ;
+}
+.title {
+    color:#001C30;
+    font-size: 35px;
+    display: flex;
+    justify-content: center
+    
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulo {
+    color: #001C30;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+.tarjeta-de-mokepon {
+    width: 180px;
+    height: 100px;
+    background: #176B87;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    color: #DAFFFB;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon img {
+    width: 80px;
+}
+
+#boton-mascota {
+width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 3px solid #001C30;
+    color: #176B87;
+    margin-top: 20px;
+    
+}
+
+input {
+    display: none;
+}
+
+#seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-ataque {
+    background-color: #176B87;
+    color: #DAFFFB;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 148px;
+}
+
+#mensajes {
+    width: 280px;
+    background: #176B87;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #DAFFFB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+#boton-reiniciar {
+    color: #DAFFFB;
+    border: none;
+    background: #176B87;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: larger;
+}
+
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+#vidas-jugador, #vidas-enemigo {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+@media (max-width:360px) {
+   .tarjetas {
+    flex-direction: column;
+   } 
+}
