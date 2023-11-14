@@ -3,13 +3,6 @@
 body {font-family: 'Bebas Neue', sans-serif;
     background-color: #DAFFFB ;
 }
-.title {
-    color:#001C30;
-    font-size: 35px;
-    display: flex;
-    justify-content: center
-    
-}
 
 #seleccionar-mascota {
     display: flex;
@@ -17,14 +10,13 @@ body {font-family: 'Bebas Neue', sans-serif;
     justify-content: center;
     align-items: center;
 }
+.title {
+    color:#001C30;
+    font-size: 35px;   
+}
 .subtitulo {
     color: #001C30;
     font-size: 26px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .tarjetas, .tarjetas-ataques {
@@ -43,7 +35,7 @@ body {font-family: 'Bebas Neue', sans-serif;
     border-radius: 20px;
     display: flex;
     color: #DAFFFB;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
